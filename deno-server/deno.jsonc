@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read=addresses.json --watch main.ts",
+    "test": "deno test --allow-read=addresses.json "
+  },
+  "test": {},
+  "imports": {
+    "oak":"https://deno.land/x/oak/mod.ts"
+  }
+}

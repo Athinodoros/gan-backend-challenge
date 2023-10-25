@@ -1,0 +1,16 @@
+{
+  "name": "backend-challenge",
+  "version": "1.0.0",
+  "description": "A challenge for GAN integrity ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "test"
+  },
+  "author": "Athinodoros Sgouromallis",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2"
+  }
+}
